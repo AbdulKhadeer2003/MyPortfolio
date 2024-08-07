@@ -1,0 +1,23 @@
+.img-about {
+  position: relative;
+  overflow: hidden; /* Hide overflow if needed */
+  padding-right: 20px; /* Adjust as needed to create space */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Position the image initially off-screen to the right */
+#image {
+  position: relative;
+  left: 100%; /* Start off-screen to the right */
+  transition: left 4s ease-in-out;
+  width: 100%; /* Make the image responsive */
+  max-width: 100%; /* Set a maximum width for larger screens */
+}
+
+/* Add a class to trigger the animation */
+#image.animate {
+  left: 50%; /* Move to the center */
+  transform: translateX(-50%); /* Center the image */
+}

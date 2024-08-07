@@ -1,0 +1,21 @@
+svg {
+    width: 200px; /* Reduced width of the SVG container */
+    height: 200px; /* Reduced height of the SVG container */
+}
+circle {
+    fill: none;
+    stroke: #ccc;
+    stroke-width: 3; /* Width of the circumference */
+}
+.range-bar {
+    stroke:#695aa6;
+    stroke-width: 3; /* Width of the range bar */
+    transition: stroke-dashoffset 0.3s;
+}
+text {
+    font-family: Arial, sans-serif;
+    font-size: 12px;
+    fill: black;
+    text-anchor: middle;
+    dominant-baseline: central;
+}
